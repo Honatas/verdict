@@ -1,0 +1,10 @@
+package io.github.honatas.verdict;
+
+import java.io.Serializable;
+
+public record TestRecord(String name, Integer age, Integer height) implements Serializable {
+
+    public TestRecord(String name) {
+        this(name, null, null);
+    }
+}
