@@ -58,7 +58,7 @@ public class MyVerdict extends Verdict {
 Suppose you have the following data structure to validate:
 
 ```java
-public record MyData(String name, Integer age, Integer height) {
+public record MyData(String name, Integer age, Integer height) implements Serializable {
 }
 ```
 
